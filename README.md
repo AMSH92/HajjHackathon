@@ -4,8 +4,8 @@
 
 This is an iOS application which shall help the Hajj season in the following ways below:
 
-1. The first way, it shall help the administrators of Hajj where they can not only track the Hajj camps and local traffic police but also they can see the number of camps, number of legal Hujjaj, and the local traffic police in Map view.
-2. The second way, is the application shall help all Hajj campuses where the campus can see the number of Hujjaj that they have in the camp,we use real time coordinates in case if any Hajjy is out of their property's  radius or anything else. 
+1. The first way, it shall help the administrators of Hajj where they can not only track the Hajj campaigns and local traffic police but also they can see the number of campaign, number of legal Hujjaj, and the local traffic police in Map view.
+2. The second way, is the application shall help all Hajj campaigns where the campaign can see the number of Hujjaj that they have in the campaign,we use real time coordinates in case if any Hajjy is out of their property's  radius or anything else. 
 
 DevPost URL:  https://devpost.com/software/hajj-crew-management
 
