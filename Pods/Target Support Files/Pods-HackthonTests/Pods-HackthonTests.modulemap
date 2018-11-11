@@ -1,0 +1,6 @@
+framework module Pods_HackthonTests {
+  umbrella header "Pods-HackthonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

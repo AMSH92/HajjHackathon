@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD97DEB21121A6E0014937A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97DE921121A6E0014937A /* LaunchScreen.storyboard */; };
+		1AD97DF621121A6E0014937A /* HackthonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97DF521121A6E0014937A /* HackthonTests.swift */; };
+		1AD97E0121121A6E0014937A /* HackthonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E0021121A6E0014937A /* HackthonUITests.swift */; };
+		1AD97E0F21121AA10014937A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E0E21121AA10014937A /* Assets.xcassets */; };
+		1AD97E1521121AB20014937A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E1121121AB20014937A /* ViewController.swift */; };
+		1AD97E1621121AB20014937A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E1221121AB20014937A /* Main.storyboard */; };
+		1AD97E1721121AB20014937A /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E1421121AB20014937A /* QRViewController.swift */; };
+		1AD97E1D21121AD50014937A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E1B21121AD50014937A /* AppDelegate.swift */; };
+		1AD97E2121121B0B0014937A /* HajjMangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E1F21121B0A0014937A /* HajjMangViewController.swift */; };
+		1AD97E2221121B0B0014937A /* HajjManagment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E2021121B0A0014937A /* HajjManagment.storyboard */; };
+		1AD97E6321121D120014937A /* 6.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E2C21121D110014937A /* 6.ttf */; };
+		1AD97E6421121D120014937A /* 54.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E2D21121D110014937A /* 54.ttf */; };
+		1AD97E6521121D120014937A /* 40.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E2E21121D110014937A /* 40.ttf */; };
+		1AD97E6621121D120014937A /* 41.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E2F21121D110014937A /* 41.ttf */; };
+		1AD97E6721121D120014937A /* 7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3021121D110014937A /* 7.ttf */; };
+		1AD97E6821121D120014937A /* 55.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3121121D110014937A /* 55.ttf */; };
+		1AD97E6921121D120014937A /* 43.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3221121D110014937A /* 43.ttf */; };
+		1AD97E6A21121D120014937A /* 5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3321121D110014937A /* 5.ttf */; };
+		1AD97E6B21121D120014937A /* 56.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3421121D110014937A /* 56.ttf */; };
+		1AD97E6C21121D120014937A /* 4.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3521121D110014937A /* 4.ttf */; };
+		1AD97E6D21121D120014937A /* 42.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3621121D110014937A /* 42.ttf */; };
+		1AD97E6E21121D120014937A /* 46.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3721121D110014937A /* 46.ttf */; };
+		1AD97E6F21121D120014937A /* 52.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3821121D110014937A /* 52.ttf */; };
+		1AD97E7021121D120014937A /* 1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3921121D110014937A /* 1.ttf */; };
+		1AD97E7121121D120014937A /* 53.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3A21121D110014937A /* 53.ttf */; };
+		1AD97E7221121D120014937A /* 47.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3B21121D110014937A /* 47.ttf */; };
+		1AD97E7321121D120014937A /* 51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3C21121D110014937A /* 51.ttf */; };
+		1AD97E7421121D120014937A /* 3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3D21121D110014937A /* 3.ttf */; };
+		1AD97E7521121D120014937A /* 45.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3E21121D110014937A /* 45.ttf */; };
+		1AD97E7621121D120014937A /* 50.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E3F21121D110014937A /* 50.ttf */; };
+		1AD97E7721121D120014937A /* 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4021121D110014937A /* 2.ttf */; };
+		1AD97E7821121D120014937A /* 37.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4121121D110014937A /* 37.ttf */; };
+		1AD97E7921121D120014937A /* 23.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4221121D110014937A /* 23.ttf */; };
+		1AD97E7A21121D120014937A /* 22.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4321121D110014937A /* 22.ttf */; };
+		1AD97E7B21121D120014937A /* 36.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4421121D110014937A /* 36.ttf */; };
+		1AD97E7C21121D120014937A /* 20.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4521121D110014937A /* 20.ttf */; };
+		1AD97E7D21121D120014937A /* 34.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4621121D110014937A /* 34.ttf */; };
+		1AD97E7E21121D120014937A /* 35.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4721121D110014937A /* 35.ttf */; };
+		1AD97E7F21121D120014937A /* 21.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4821121D110014937A /* 21.ttf */; };
+		1AD97E8021121D120014937A /* 25.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4921121D110014937A /* 25.ttf */; };
+		1AD97E8121121D120014937A /* 19.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4A21121D110014937A /* 19.ttf */; };
+		1AD97E8221121D120014937A /* 18.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4B21121D110014937A /* 18.ttf */; };
+		1AD97E8321121D120014937A /* 30.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4C21121D110014937A /* 30.ttf */; };
+		1AD97E8421121D120014937A /* 24.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4D21121D110014937A /* 24.ttf */; };
+		1AD97E8521121D120014937A /* 32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4E21121D110014937A /* 32.ttf */; };
+		1AD97E8621121D120014937A /* 26.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E4F21121D110014937A /* 26.ttf */; };
+		1AD97E8721121D120014937A /* -Me.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5021121D110014937A /* -Me.png */; };
+		1AD97E8821121D120014937A /* 27.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5121121D110014937A /* 27.ttf */; };
+		1AD97E8921121D120014937A /* 33.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5221121D110014937A /* 33.ttf */; };
+		1AD97E8A21121D120014937A /* 16.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5321121D110014937A /* 16.ttf */; };
+		1AD97E8B21121D120014937A /* 9.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5421121D110014937A /* 9.OTF */; };
+		1AD97E8C21121D120014937A /* 8.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5521121D110014937A /* 8.OTF */; };
+		1AD97E8D21121D120014937A /* 17.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5621121D110014937A /* 17.ttf */; };
+		1AD97E8E21121D120014937A /* 29.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5721121D110014937A /* 29.ttf */; };
+		1AD97E8F21121D120014937A /* 28.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5821121D110014937A /* 28.ttf */; };
+		1AD97E9021121D120014937A /* 38.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5921121D110014937A /* 38.ttf */; };
+		1AD97E9121121D120014937A /* 39.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5A21121D110014937A /* 39.ttf */; };
+		1AD97E9221121D120014937A /* 49.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5B21121D110014937A /* 49.ttf */; };
+		1AD97E9321121D120014937A /* 10.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5C21121D110014937A /* 10.OTF */; };
+		1AD97E9421121D120014937A /* 11.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5D21121D110014937A /* 11.OTF */; };
+		1AD97E9521121D120014937A /* 48.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5E21121D110014937A /* 48.ttf */; };
+		1AD97E9621121D120014937A /* 13.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E5F21121D110014937A /* 13.OTF */; };
+		1AD97E9721121D120014937A /* 12.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E6021121D110014937A /* 12.OTF */; };
+		1AD97E9821121D120014937A /* 15.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E6121121D110014937A /* 15.OTF */; };
+		1AD97E9921121D120014937A /* 14.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97E6221121D110014937A /* 14.OTF */; };
+		1AD97E9C21122B7B0014937A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97E9B21122B7B0014937A /* Config.swift */; };
+		1AD97EA121123C270014937A /* Orgnaization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97EA021123C270014937A /* Orgnaization.storyboard */; };
+		1AD97EA521124C4D0014937A /* OrgnaizerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EA421124C4D0014937A /* OrgnaizerMainViewController.swift */; };
+		1AD97EA821128C830014937A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EA721128C830014937A /* InfoViewController.swift */; };
+		1AD97EAB2112A3720014937A /* MainRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EAA2112A3720014937A /* MainRequest.swift */; };
+		1AD97EB5211350A10014937A /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EAD211350A10014937A /* HelpViewController.swift */; };
+		1AD97EB6211350A10014937A /* ImportantDatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EAE211350A10014937A /* ImportantDatesTableViewCell.swift */; };
+		1AD97EB7211350A10014937A /* Hajj.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD97EAF211350A10014937A /* Hajj.storyboard */; };
+		1AD97EB8211350A10014937A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EB0211350A10014937A /* Extensions.swift */; };
+		1AD97EB9211350A10014937A /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EB1211350A10014937A /* Dates.swift */; };
+		1AD97EBA211350A10014937A /* HajjViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EB2211350A10014937A /* HajjViewController.swift */; };
+		1AD97EBB211350A10014937A /* ImportantDatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EB3211350A10014937A /* ImportantDatesViewController.swift */; };
+		1AD97EBC211350A10014937A /* HelpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD97EB4211350A10014937A /* HelpTableViewCell.swift */; };
+		52C2685B5FA96D5F65BEBCEC /* Pods_HackthonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524B452F353E33327EAD7905 /* Pods_HackthonUITests.framework */; };
+		57323D1CFF5676F307AA3DD6 /* Pods_HackthonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8081A8BFC6B875B031CB2A /* Pods_HackthonTests.framework */; };
+		777458E0AD3481E454CC9A12 /* Pods_Hackthon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6741558B008D5430541D1 /* Pods_Hackthon.framework */; };
+		CA88FFD621138AC2004CC1BC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA88FFD521138AC2004CC1BC /* ProfileViewController.swift */; };
+		CA88FFDA2113C360004CC1BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA88FFD92113C360004CC1BC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AD97DF221121A6E0014937A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD97DD521121A6D0014937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD97DDC21121A6D0014937A;
+			remoteInfo = Hackthon;
+		};
+		1AD97DFD21121A6E0014937A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AD97DD521121A6D0014937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD97DDC21121A6D0014937A;
+			remoteInfo = Hackthon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD97DDD21121A6D0014937A /* Hackthon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackthon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD97DEA21121A6E0014937A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AD97DF121121A6E0014937A /* HackthonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackthonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD97DF521121A6E0014937A /* HackthonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonTests.swift; sourceTree = "<group>"; };
+		1AD97DFC21121A6E0014937A /* HackthonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackthonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD97E0021121A6E0014937A /* HackthonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackthonUITests.swift; sourceTree = "<group>"; };
+		1AD97E0221121A6E0014937A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD97E0E21121AA10014937A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD97E1121121AB20014937A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD97E1321121AB20014937A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD97E1421121AB20014937A /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		1AD97E1B21121AD50014937A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD97E1F21121B0A0014937A /* HajjMangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HajjMangViewController.swift; sourceTree = "<group>"; };
+		1AD97E2021121B0A0014937A /* HajjManagment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HajjManagment.storyboard; sourceTree = "<group>"; };
+		1AD97E2C21121D110014937A /* 6.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.ttf; sourceTree = "<group>"; };
+		1AD97E2D21121D110014937A /* 54.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 54.ttf; sourceTree = "<group>"; };
+		1AD97E2E21121D110014937A /* 40.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 40.ttf; sourceTree = "<group>"; };
+		1AD97E2F21121D110014937A /* 41.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 41.ttf; sourceTree = "<group>"; };
+		1AD97E3021121D110014937A /* 7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.ttf; sourceTree = "<group>"; };
+		1AD97E3121121D110014937A /* 55.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 55.ttf; sourceTree = "<group>"; };
+		1AD97E3221121D110014937A /* 43.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 43.ttf; sourceTree = "<group>"; };
+		1AD97E3321121D110014937A /* 5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.ttf; sourceTree = "<group>"; };
+		1AD97E3421121D110014937A /* 56.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 56.ttf; sourceTree = "<group>"; };
+		1AD97E3521121D110014937A /* 4.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.ttf; sourceTree = "<group>"; };
+		1AD97E3621121D110014937A /* 42.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 42.ttf; sourceTree = "<group>"; };
+		1AD97E3721121D110014937A /* 46.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 46.ttf; sourceTree = "<group>"; };
+		1AD97E3821121D110014937A /* 52.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 52.ttf; sourceTree = "<group>"; };
+		1AD97E3921121D110014937A /* 1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.ttf; sourceTree = "<group>"; };
+		1AD97E3A21121D110014937A /* 53.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 53.ttf; sourceTree = "<group>"; };
+		1AD97E3B21121D110014937A /* 47.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 47.ttf; sourceTree = "<group>"; };
+		1AD97E3C21121D110014937A /* 51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 51.ttf; sourceTree = "<group>"; };
+		1AD97E3D21121D110014937A /* 3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.ttf; sourceTree = "<group>"; };
+		1AD97E3E21121D110014937A /* 45.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 45.ttf; sourceTree = "<group>"; };
+		1AD97E3F21121D110014937A /* 50.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 50.ttf; sourceTree = "<group>"; };
+		1AD97E4021121D110014937A /* 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.ttf; sourceTree = "<group>"; };
+		1AD97E4121121D110014937A /* 37.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 37.ttf; sourceTree = "<group>"; };
+		1AD97E4221121D110014937A /* 23.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 23.ttf; sourceTree = "<group>"; };
+		1AD97E4321121D110014937A /* 22.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 22.ttf; sourceTree = "<group>"; };
+		1AD97E4421121D110014937A /* 36.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 36.ttf; sourceTree = "<group>"; };
+		1AD97E4521121D110014937A /* 20.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20.ttf; sourceTree = "<group>"; };
+		1AD97E4621121D110014937A /* 34.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 34.ttf; sourceTree = "<group>"; };
+		1AD97E4721121D110014937A /* 35.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 35.ttf; sourceTree = "<group>"; };
+		1AD97E4821121D110014937A /* 21.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 21.ttf; sourceTree = "<group>"; };
+		1AD97E4921121D110014937A /* 25.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 25.ttf; sourceTree = "<group>"; };
+		1AD97E4A21121D110014937A /* 19.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 19.ttf; sourceTree = "<group>"; };
+		1AD97E4B21121D110014937A /* 18.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 18.ttf; sourceTree = "<group>"; };
+		1AD97E4C21121D110014937A /* 30.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 30.ttf; sourceTree = "<group>"; };
+		1AD97E4D21121D110014937A /* 24.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 24.ttf; sourceTree = "<group>"; };
+		1AD97E4E21121D110014937A /* 32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 32.ttf; sourceTree = "<group>"; };
+		1AD97E4F21121D110014937A /* 26.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 26.ttf; sourceTree = "<group>"; };
+		1AD97E5021121D110014937A /* -Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-Me.png"; sourceTree = "<group>"; };
+		1AD97E5121121D110014937A /* 27.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 27.ttf; sourceTree = "<group>"; };
+		1AD97E5221121D110014937A /* 33.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 33.ttf; sourceTree = "<group>"; };
+		1AD97E5321121D110014937A /* 16.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 16.ttf; sourceTree = "<group>"; };
+		1AD97E5421121D110014937A /* 9.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.OTF; sourceTree = "<group>"; };
+		1AD97E5521121D110014937A /* 8.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.OTF; sourceTree = "<group>"; };
+		1AD97E5621121D110014937A /* 17.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17.ttf; sourceTree = "<group>"; };
+		1AD97E5721121D110014937A /* 29.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 29.ttf; sourceTree = "<group>"; };
+		1AD97E5821121D110014937A /* 28.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 28.ttf; sourceTree = "<group>"; };
+		1AD97E5921121D110014937A /* 38.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 38.ttf; sourceTree = "<group>"; };
+		1AD97E5A21121D110014937A /* 39.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 39.ttf; sourceTree = "<group>"; };
+		1AD97E5B21121D110014937A /* 49.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 49.ttf; sourceTree = "<group>"; };
+		1AD97E5C21121D110014937A /* 10.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.OTF; sourceTree = "<group>"; };
+		1AD97E5D21121D110014937A /* 11.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11.OTF; sourceTree = "<group>"; };
+		1AD97E5E21121D110014937A /* 48.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 48.ttf; sourceTree = "<group>"; };
+		1AD97E5F21121D110014937A /* 13.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 13.OTF; sourceTree = "<group>"; };
+		1AD97E6021121D110014937A /* 12.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 12.OTF; sourceTree = "<group>"; };
+		1AD97E6121121D110014937A /* 15.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 15.OTF; sourceTree = "<group>"; };
+		1AD97E6221121D110014937A /* 14.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 14.OTF; sourceTree = "<group>"; };
+		1AD97E9B21122B7B0014937A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1AD97E9D21122FD60014937A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD97EA021123C270014937A /* Orgnaization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orgnaization.storyboard; sourceTree = "<group>"; };
+		1AD97EA421124C4D0014937A /* OrgnaizerMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgnaizerMainViewController.swift; sourceTree = "<group>"; };
+		1AD97EA721128C830014937A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		1AD97EAA2112A3720014937A /* MainRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRequest.swift; sourceTree = "<group>"; };
+		1AD97EAD211350A10014937A /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1AD97EAE211350A10014937A /* ImportantDatesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportantDatesTableViewCell.swift; sourceTree = "<group>"; };
+		1AD97EAF211350A10014937A /* Hajj.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hajj.storyboard; sourceTree = "<group>"; };
+		1AD97EB0211350A10014937A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1AD97EB1211350A10014937A /* Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		1AD97EB2211350A10014937A /* HajjViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HajjViewController.swift; sourceTree = "<group>"; };
+		1AD97EB3211350A10014937A /* ImportantDatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportantDatesViewController.swift; sourceTree = "<group>"; };
+		1AD97EB4211350A10014937A /* HelpTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTableViewCell.swift; sourceTree = "<group>"; };
+		42F3D5AE29D09399943174BC /* Pods-Hackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackthon/Pods-Hackthon.debug.xcconfig"; sourceTree = "<group>"; };
+		44532A0B0D94843A0A870D68 /* Pods-HackthonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackthonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackthonTests/Pods-HackthonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		524B452F353E33327EAD7905 /* Pods_HackthonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackthonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8081A8BFC6B875B031CB2A /* Pods_HackthonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackthonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D08B3266FF735A1E74C9B6 /* Pods-Hackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackthon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackthon/Pods-Hackthon.release.xcconfig"; sourceTree = "<group>"; };
+		AD4F0003717B988EC48992F2 /* Pods-HackthonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackthonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackthonUITests/Pods-HackthonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C261CA1636F6F24048A294FB /* Pods-HackthonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackthonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackthonUITests/Pods-HackthonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA88FFD521138AC2004CC1BC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CA88FFD82113B188004CC1BC /* Hackthon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hackthon.entitlements; sourceTree = "<group>"; };
+		CA88FFD92113C360004CC1BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5C6741558B008D5430541D1 /* Pods_Hackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D3E6379CA99765938576FF /* Pods-HackthonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackthonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackthonTests/Pods-HackthonTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD97DDA21121A6D0014937A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777458E0AD3481E454CC9A12 /* Pods_Hackthon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DEE21121A6E0014937A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57323D1CFF5676F307AA3DD6 /* Pods_HackthonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DF921121A6E0014937A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C2685B5FA96D5F65BEBCEC /* Pods_HackthonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001512DE5A83E4B3E982FF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F3D5AE29D09399943174BC /* Pods-Hackthon.debug.xcconfig */,
+				A5D08B3266FF735A1E74C9B6 /* Pods-Hackthon.release.xcconfig */,
+				44532A0B0D94843A0A870D68 /* Pods-HackthonTests.debug.xcconfig */,
+				E5D3E6379CA99765938576FF /* Pods-HackthonTests.release.xcconfig */,
+				AD4F0003717B988EC48992F2 /* Pods-HackthonUITests.debug.xcconfig */,
+				C261CA1636F6F24048A294FB /* Pods-HackthonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AD97DD421121A6D0014937A = {
+			isa = PBXGroup;
+			children = (
+				1AD97DDF21121A6D0014937A /* Hackthon */,
+				1AD97DDE21121A6D0014937A /* Products */,
+				1AD97DF421121A6E0014937A /* HackthonTests */,
+				1AD97DFF21121A6E0014937A /* HackthonUITests */,
+				001512DE5A83E4B3E982FF49 /* Pods */,
+				9950CE44530E1067E06DC6EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD97DDE21121A6D0014937A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97DDD21121A6D0014937A /* Hackthon.app */,
+				1AD97DF121121A6E0014937A /* HackthonTests.xctest */,
+				1AD97DFC21121A6E0014937A /* HackthonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD97DDF21121A6D0014937A /* Hackthon */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E1B21121AD50014937A /* AppDelegate.swift */,
+				CA781778211355D5007E5D51 /* Models */,
+				1AD97E1021121AB20014937A /* Views */,
+				E8DCC5EE2115B5E2001F7B54 /* Controllers */,
+				1AD97E2521121B670014937A /* SupportingFiles */,
+				1AD97E0E21121AA10014937A /* Assets.xcassets */,
+				CA88FFD82113B188004CC1BC /* Hackthon.entitlements */,
+				1AD97E9D21122FD60014937A /* Info.plist */,
+				CA88FFD92113C360004CC1BC /* GoogleService-Info.plist */,
+			);
+			path = Hackthon;
+			sourceTree = "<group>";
+		};
+		1AD97DF421121A6E0014937A /* HackthonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97DF521121A6E0014937A /* HackthonTests.swift */,
+			);
+			path = HackthonTests;
+			sourceTree = "<group>";
+		};
+		1AD97DFF21121A6E0014937A /* HackthonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E0021121A6E0014937A /* HackthonUITests.swift */,
+				1AD97E0221121A6E0014937A /* Info.plist */,
+			);
+			path = HackthonUITests;
+			sourceTree = "<group>";
+		};
+		1AD97E1021121AB20014937A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97DE921121A6E0014937A /* LaunchScreen.storyboard */,
+				1AD97E1221121AB20014937A /* Main.storyboard */,
+				1AD97EA021123C270014937A /* Orgnaization.storyboard */,
+				1AD97EAF211350A10014937A /* Hajj.storyboard */,
+				1AD97E2021121B0A0014937A /* HajjManagment.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AD97E1E21121B0A0014937A /* HajjManagment */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E1F21121B0A0014937A /* HajjMangViewController.swift */,
+			);
+			path = HajjManagment;
+			sourceTree = "<group>";
+		};
+		1AD97E2521121B670014937A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EA92112A35A0014937A /* Request */,
+				1AD97E9A21122B7B0014937A /* Config */,
+				1AD97E2B21121D110014937A /* HelpMac-Font */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1AD97E2B21121D110014937A /* HelpMac-Font */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E2C21121D110014937A /* 6.ttf */,
+				1AD97E2D21121D110014937A /* 54.ttf */,
+				1AD97E2E21121D110014937A /* 40.ttf */,
+				1AD97E2F21121D110014937A /* 41.ttf */,
+				1AD97E3021121D110014937A /* 7.ttf */,
+				1AD97E3121121D110014937A /* 55.ttf */,
+				1AD97E3221121D110014937A /* 43.ttf */,
+				1AD97E3321121D110014937A /* 5.ttf */,
+				1AD97E3421121D110014937A /* 56.ttf */,
+				1AD97E3521121D110014937A /* 4.ttf */,
+				1AD97E3621121D110014937A /* 42.ttf */,
+				1AD97E3721121D110014937A /* 46.ttf */,
+				1AD97E3821121D110014937A /* 52.ttf */,
+				1AD97E3921121D110014937A /* 1.ttf */,
+				1AD97E3A21121D110014937A /* 53.ttf */,
+				1AD97E3B21121D110014937A /* 47.ttf */,
+				1AD97E3C21121D110014937A /* 51.ttf */,
+				1AD97E3D21121D110014937A /* 3.ttf */,
+				1AD97E3E21121D110014937A /* 45.ttf */,
+				1AD97E3F21121D110014937A /* 50.ttf */,
+				1AD97E4021121D110014937A /* 2.ttf */,
+				1AD97E4121121D110014937A /* 37.ttf */,
+				1AD97E4221121D110014937A /* 23.ttf */,
+				1AD97E4321121D110014937A /* 22.ttf */,
+				1AD97E4421121D110014937A /* 36.ttf */,
+				1AD97E4521121D110014937A /* 20.ttf */,
+				1AD97E4621121D110014937A /* 34.ttf */,
+				1AD97E4721121D110014937A /* 35.ttf */,
+				1AD97E4821121D110014937A /* 21.ttf */,
+				1AD97E4921121D110014937A /* 25.ttf */,
+				1AD97E4A21121D110014937A /* 19.ttf */,
+				1AD97E4B21121D110014937A /* 18.ttf */,
+				1AD97E4C21121D110014937A /* 30.ttf */,
+				1AD97E4D21121D110014937A /* 24.ttf */,
+				1AD97E4E21121D110014937A /* 32.ttf */,
+				1AD97E4F21121D110014937A /* 26.ttf */,
+				1AD97E5021121D110014937A /* -Me.png */,
+				1AD97E5121121D110014937A /* 27.ttf */,
+				1AD97E5221121D110014937A /* 33.ttf */,
+				1AD97E5321121D110014937A /* 16.ttf */,
+				1AD97E5421121D110014937A /* 9.OTF */,
+				1AD97E5521121D110014937A /* 8.OTF */,
+				1AD97E5621121D110014937A /* 17.ttf */,
+				1AD97E5721121D110014937A /* 29.ttf */,
+				1AD97E5821121D110014937A /* 28.ttf */,
+				1AD97E5921121D110014937A /* 38.ttf */,
+				1AD97E5A21121D110014937A /* 39.ttf */,
+				1AD97E5B21121D110014937A /* 49.ttf */,
+				1AD97E5C21121D110014937A /* 10.OTF */,
+				1AD97E5D21121D110014937A /* 11.OTF */,
+				1AD97E5E21121D110014937A /* 48.ttf */,
+				1AD97E5F21121D110014937A /* 13.OTF */,
+				1AD97E6021121D110014937A /* 12.OTF */,
+				1AD97E6121121D110014937A /* 15.OTF */,
+				1AD97E6221121D110014937A /* 14.OTF */,
+			);
+			path = "HelpMac-Font";
+			sourceTree = "<group>";
+		};
+		1AD97E9A21122B7B0014937A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E9B21122B7B0014937A /* Config.swift */,
+				1AD97EB0211350A10014937A /* Extensions.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1AD97E9F21123C050014937A /* Orgnaization */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EA621128C790014937A /* info */,
+				1AD97EA421124C4D0014937A /* OrgnaizerMainViewController.swift */,
+			);
+			path = Orgnaization;
+			sourceTree = "<group>";
+		};
+		1AD97EA621128C790014937A /* info */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EA721128C830014937A /* InfoViewController.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		1AD97EA92112A35A0014937A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EAA2112A3720014937A /* MainRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		1AD97EAC211350A10014937A /* Hajj */ = {
+			isa = PBXGroup;
+			children = (
+				CA78177A21135857007E5D51 /* ImportentDates Controller */,
+				CA78177B2113586C007E5D51 /* GetHelp Controller */,
+				CA88FFD721138AC9004CC1BC /* Profile */,
+			);
+			path = Hajj;
+			sourceTree = "<group>";
+		};
+		9950CE44530E1067E06DC6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C6741558B008D5430541D1 /* Pods_Hackthon.framework */,
+				8D8081A8BFC6B875B031CB2A /* Pods_HackthonTests.framework */,
+				524B452F353E33327EAD7905 /* Pods_HackthonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA781778211355D5007E5D51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EB1211350A10014937A /* Dates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA78177921135842007E5D51 /* Hajj Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EB2211350A10014937A /* HajjViewController.swift */,
+				1AD97EAC211350A10014937A /* Hajj */,
+			);
+			path = "Hajj Controller";
+			sourceTree = "<group>";
+		};
+		CA78177A21135857007E5D51 /* ImportentDates Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EB3211350A10014937A /* ImportantDatesViewController.swift */,
+				1AD97EAE211350A10014937A /* ImportantDatesTableViewCell.swift */,
+			);
+			path = "ImportentDates Controller";
+			sourceTree = "<group>";
+		};
+		CA78177B2113586C007E5D51 /* GetHelp Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97EAD211350A10014937A /* HelpViewController.swift */,
+				1AD97EB4211350A10014937A /* HelpTableViewCell.swift */,
+			);
+			path = "GetHelp Controller";
+			sourceTree = "<group>";
+		};
+		CA88FFD721138AC9004CC1BC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CA88FFD521138AC2004CC1BC /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E8DCC5ED2115B5CB001F7B54 /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AD97E1121121AB20014937A /* ViewController.swift */,
+				1AD97E1421121AB20014937A /* QRViewController.swift */,
+				CA78177921135842007E5D51 /* Hajj Controller */,
+				1AD97E9F21123C050014937A /* Orgnaization */,
+				1AD97E1E21121B0A0014937A /* HajjManagment */,
+			);
+			path = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		E8DCC5EE2115B5E2001F7B54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCC5ED2115B5CB001F7B54 /* Main Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD97DDC21121A6D0014937A /* Hackthon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD97E0521121A6E0014937A /* Build configuration list for PBXNativeTarget "Hackthon" */;
+			buildPhases = (
+				513D1259D4DD8C9C1DCC9BA5 /* [CP] Check Pods Manifest.lock */,
+				1AD97DD921121A6D0014937A /* Sources */,
+				1AD97DDA21121A6D0014937A /* Frameworks */,
+				1AD97DDB21121A6D0014937A /* Resources */,
+				A0BFC4C0BA8BF58F3C6E7A14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackthon;
+			productName = Hackthon;
+			productReference = 1AD97DDD21121A6D0014937A /* Hackthon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AD97DF021121A6E0014937A /* HackthonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD97E0821121A6E0014937A /* Build configuration list for PBXNativeTarget "HackthonTests" */;
+			buildPhases = (
+				3CB386F144183CDDF6B4EEED /* [CP] Check Pods Manifest.lock */,
+				1AD97DED21121A6E0014937A /* Sources */,
+				1AD97DEE21121A6E0014937A /* Frameworks */,
+				1AD97DEF21121A6E0014937A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD97DF321121A6E0014937A /* PBXTargetDependency */,
+			);
+			name = HackthonTests;
+			productName = HackthonTests;
+			productReference = 1AD97DF121121A6E0014937A /* HackthonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AD97DFB21121A6E0014937A /* HackthonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AD97E0B21121A6E0014937A /* Build configuration list for PBXNativeTarget "HackthonUITests" */;
+			buildPhases = (
+				735BFAA6529004262BC96113 /* [CP] Check Pods Manifest.lock */,
+				1AD97DF821121A6E0014937A /* Sources */,
+				1AD97DF921121A6E0014937A /* Frameworks */,
+				1AD97DFA21121A6E0014937A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AD97DFE21121A6E0014937A /* PBXTargetDependency */,
+			);
+			name = HackthonUITests;
+			productName = HackthonUITests;
+			productReference = 1AD97DFC21121A6E0014937A /* HackthonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD97DD521121A6D0014937A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alsharif Abdullah";
+				TargetAttributes = {
+					1AD97DDC21121A6D0014937A = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					1AD97DF021121A6E0014937A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1AD97DDC21121A6D0014937A;
+					};
+					1AD97DFB21121A6E0014937A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1AD97DDC21121A6D0014937A;
+					};
+				};
+			};
+			buildConfigurationList = 1AD97DD821121A6D0014937A /* Build configuration list for PBXProject "Hackthon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD97DD421121A6D0014937A;
+			productRefGroup = 1AD97DDE21121A6D0014937A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AD97DDC21121A6D0014937A /* Hackthon */,
+				1AD97DF021121A6E0014937A /* HackthonTests */,
+				1AD97DFB21121A6E0014937A /* HackthonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AD97DDB21121A6D0014937A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD97E7621121D120014937A /* 50.ttf in Resources */,
+				1AD97E6A21121D120014937A /* 5.ttf in Resources */,
+				1AD97E1621121AB20014937A /* Main.storyboard in Resources */,
+				1AD97E7821121D120014937A /* 37.ttf in Resources */,
+				1AD97E8921121D120014937A /* 33.ttf in Resources */,
+				1AD97EA121123C270014937A /* Orgnaization.storyboard in Resources */,
+				1AD97E9421121D120014937A /* 11.OTF in Resources */,
+				1AD97E8A21121D120014937A /* 16.ttf in Resources */,
+				1AD97E2221121B0B0014937A /* HajjManagment.storyboard in Resources */,
+				1AD97E8021121D120014937A /* 25.ttf in Resources */,
+				1AD97E7521121D120014937A /* 45.ttf in Resources */,
+				1AD97E8821121D120014937A /* 27.ttf in Resources */,
+				1AD97E8D21121D120014937A /* 17.ttf in Resources */,
+				1AD97E9621121D120014937A /* 13.OTF in Resources */,
+				1AD97E8221121D120014937A /* 18.ttf in Resources */,
+				1AD97E7221121D120014937A /* 47.ttf in Resources */,
+				1AD97E6321121D120014937A /* 6.ttf in Resources */,
+				1AD97E7D21121D120014937A /* 34.ttf in Resources */,
+				1AD97E6621121D120014937A /* 41.ttf in Resources */,
+				1AD97E8321121D120014937A /* 30.ttf in Resources */,
+				1AD97E7421121D120014937A /* 3.ttf in Resources */,
+				1AD97E8521121D120014937A /* 32.ttf in Resources */,
+				1AD97E7921121D120014937A /* 23.ttf in Resources */,
+				1AD97E9521121D120014937A /* 48.ttf in Resources */,
+				CA88FFDA2113C360004CC1BC /* GoogleService-Info.plist in Resources */,
+				1AD97E7A21121D120014937A /* 22.ttf in Resources */,
+				1AD97E6921121D120014937A /* 43.ttf in Resources */,
+				1AD97E7321121D120014937A /* 51.ttf in Resources */,
+				1AD97E8621121D120014937A /* 26.ttf in Resources */,
+				1AD97E8721121D120014937A /* -Me.png in Resources */,
+				1AD97E9121121D120014937A /* 39.ttf in Resources */,
+				1AD97E6F21121D120014937A /* 52.ttf in Resources */,
+				1AD97E7F21121D120014937A /* 21.ttf in Resources */,
+				1AD97E8E21121D120014937A /* 29.ttf in Resources */,
+				1AD97E8C21121D120014937A /* 8.OTF in Resources */,
+				1AD97E8F21121D120014937A /* 28.ttf in Resources */,
+				1AD97E8B21121D120014937A /* 9.OTF in Resources */,
+				1AD97DEB21121A6E0014937A /* LaunchScreen.storyboard in Resources */,
+				1AD97E9221121D120014937A /* 49.ttf in Resources */,
+				1AD97E8121121D120014937A /* 19.ttf in Resources */,
+				1AD97E9321121D120014937A /* 10.OTF in Resources */,
+				1AD97E6D21121D120014937A /* 42.ttf in Resources */,
+				1AD97E7721121D120014937A /* 2.ttf in Resources */,
+				1AD97E7E21121D120014937A /* 35.ttf in Resources */,
+				1AD97E8421121D120014937A /* 24.ttf in Resources */,
+				1AD97E7121121D120014937A /* 53.ttf in Resources */,
+				1AD97E6421121D120014937A /* 54.ttf in Resources */,
+				1AD97E6E21121D120014937A /* 46.ttf in Resources */,
+				1AD97E9821121D120014937A /* 15.OTF in Resources */,
+				1AD97E7021121D120014937A /* 1.ttf in Resources */,
+				1AD97E6C21121D120014937A /* 4.ttf in Resources */,
+				1AD97EB7211350A10014937A /* Hajj.storyboard in Resources */,
+				1AD97E9921121D120014937A /* 14.OTF in Resources */,
+				1AD97E6821121D120014937A /* 55.ttf in Resources */,
+				1AD97E9021121D120014937A /* 38.ttf in Resources */,
+				1AD97E7C21121D120014937A /* 20.ttf in Resources */,
+				1AD97E7B21121D120014937A /* 36.ttf in Resources */,
+				1AD97E6521121D120014937A /* 40.ttf in Resources */,
+				1AD97E9721121D120014937A /* 12.OTF in Resources */,
+				1AD97E6721121D120014937A /* 7.ttf in Resources */,
+				1AD97E0F21121AA10014937A /* Assets.xcassets in Resources */,
+				1AD97E6B21121D120014937A /* 56.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DEF21121A6E0014937A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DFA21121A6E0014937A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB386F144183CDDF6B4EEED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackthonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513D1259D4DD8C9C1DCC9BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackthon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		735BFAA6529004262BC96113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackthonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BFC4C0BA8BF58F3C6E7A14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Helper4Swift/Helper4Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceAware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Helper4Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hackthon/Pods-Hackthon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AD97DD921121A6D0014937A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD97EB6211350A10014937A /* ImportantDatesTableViewCell.swift in Sources */,
+				1AD97E1D21121AD50014937A /* AppDelegate.swift in Sources */,
+				1AD97E1521121AB20014937A /* ViewController.swift in Sources */,
+				1AD97EBB211350A10014937A /* ImportantDatesViewController.swift in Sources */,
+				1AD97EB9211350A10014937A /* Dates.swift in Sources */,
+				1AD97EAB2112A3720014937A /* MainRequest.swift in Sources */,
+				CA88FFD621138AC2004CC1BC /* ProfileViewController.swift in Sources */,
+				1AD97E9C21122B7B0014937A /* Config.swift in Sources */,
+				1AD97EB5211350A10014937A /* HelpViewController.swift in Sources */,
+				1AD97EA821128C830014937A /* InfoViewController.swift in Sources */,
+				1AD97EBC211350A10014937A /* HelpTableViewCell.swift in Sources */,
+				1AD97E2121121B0B0014937A /* HajjMangViewController.swift in Sources */,
+				1AD97E1721121AB20014937A /* QRViewController.swift in Sources */,
+				1AD97EB8211350A10014937A /* Extensions.swift in Sources */,
+				1AD97EA521124C4D0014937A /* OrgnaizerMainViewController.swift in Sources */,
+				1AD97EBA211350A10014937A /* HajjViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DED21121A6E0014937A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD97DF621121A6E0014937A /* HackthonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD97DF821121A6E0014937A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD97E0121121A6E0014937A /* HackthonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AD97DF321121A6E0014937A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD97DDC21121A6D0014937A /* Hackthon */;
+			targetProxy = 1AD97DF221121A6E0014937A /* PBXContainerItemProxy */;
+		};
+		1AD97DFE21121A6E0014937A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD97DDC21121A6D0014937A /* Hackthon */;
+			targetProxy = 1AD97DFD21121A6E0014937A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD97DE921121A6E0014937A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD97DEA21121A6E0014937A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1AD97E1221121AB20014937A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD97E1321121AB20014937A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AD97E0321121A6E0014937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AD97E0421121A6E0014937A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AD97E0621121A6E0014937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F3D5AE29D09399943174BC /* Pods-Hackthon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = Hackthon/Hackthon.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69L3HCQBT;
+				INFOPLIST_FILE = Hackthon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.alhaider.hackthonIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AD97E0721121A6E0014937A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D08B3266FF735A1E74C9B6 /* Pods-Hackthon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = Hackthon/Hackthon.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G69L3HCQBT;
+				INFOPLIST_FILE = Hackthon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.alhaider.hackthonIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD97E0921121A6E0014937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44532A0B0D94843A0A870D68 /* Pods-HackthonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackthonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alsharif.com.HackthonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackthon.app/Hackthon";
+			};
+			name = Debug;
+		};
+		1AD97E0A21121A6E0014937A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D3E6379CA99765938576FF /* Pods-HackthonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackthonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alsharif.com.HackthonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackthon.app/Hackthon";
+			};
+			name = Release;
+		};
+		1AD97E0C21121A6E0014937A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4F0003717B988EC48992F2 /* Pods-HackthonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackthonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alsharif.com.HackthonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hackthon;
+			};
+			name = Debug;
+		};
+		1AD97E0D21121A6E0014937A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C261CA1636F6F24048A294FB /* Pods-HackthonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackthonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alsharif.com.HackthonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hackthon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AD97DD821121A6D0014937A /* Build configuration list for PBXProject "Hackthon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD97E0321121A6E0014937A /* Debug */,
+				1AD97E0421121A6E0014937A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD97E0521121A6E0014937A /* Build configuration list for PBXNativeTarget "Hackthon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD97E0621121A6E0014937A /* Debug */,
+				1AD97E0721121A6E0014937A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD97E0821121A6E0014937A /* Build configuration list for PBXNativeTarget "HackthonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD97E0921121A6E0014937A /* Debug */,
+				1AD97E0A21121A6E0014937A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD97E0B21121A6E0014937A /* Build configuration list for PBXNativeTarget "HackthonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD97E0C21121A6E0014937A /* Debug */,
+				1AD97E0D21121A6E0014937A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD97DD521121A6D0014937A /* Project object */;
+}

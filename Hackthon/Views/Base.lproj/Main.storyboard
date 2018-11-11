@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="37.ttf">
+            <string>JannaLT-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hackthon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-dH-Ndn">
+                                <rect key="frame" x="18" y="410.33333333333331" width="338" height="98"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xwU-yy-TLg">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="98"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4Nh-6x-zah">
+                                            <rect key="frame" x="0.0" y="0.0" width="106" height="98"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSE-kI-8Qq">
+                                                    <rect key="frame" x="18" y="0.0" width="71" height="76"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="71" id="07m-x4-v7d"/>
+                                                        <constraint firstAttribute="height" constant="76" id="TdU-Jg-GR2"/>
+                                                    </constraints>
+                                                    <state key="normal" image="kaabaa"/>
+                                                    <connections>
+                                                        <action selector="hajjManagmentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X20-Fk-wOx"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ادارة الحج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3A-UV-Mfa">
+                                                    <rect key="frame" x="21.333333333333339" y="63" width="63.666666666666657" height="33.666666666666657"/>
+                                                    <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="18"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="zSE-kI-8Qq" firstAttribute="top" secondItem="4Nh-6x-zah" secondAttribute="top" id="hmL-he-NOf"/>
+                                                <constraint firstItem="zSE-kI-8Qq" firstAttribute="centerX" secondItem="4Nh-6x-zah" secondAttribute="centerX" id="jFc-8u-K0k"/>
+                                                <constraint firstItem="t3A-UV-Mfa" firstAttribute="centerX" secondItem="4Nh-6x-zah" secondAttribute="centerX" id="jSf-b8-V1S"/>
+                                                <constraint firstItem="t3A-UV-Mfa" firstAttribute="top" secondItem="4Nh-6x-zah" secondAttribute="top" constant="63" id="w6e-Om-dSN"/>
+                                            </constraints>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="106" id="5aR-3X-fS8"/>
+                                            <constraint firstAttribute="height" constant="98" id="h2A-RD-a6f"/>
+                                        </constraints>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcl-Az-4hX">
+                                        <rect key="frame" x="116" y="0.0" width="106" height="98"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Xlp-6f-Pxn">
+                                            <rect key="frame" x="0.0" y="0.0" width="106" height="98"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXr-2N-OVd">
+                                                    <rect key="frame" x="23" y="7" width="60" height="64"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="V4w-Bw-5vk"/>
+                                                        <constraint firstAttribute="height" constant="64" id="fNZ-4G-eEP"/>
+                                                    </constraints>
+                                                    <state key="normal" image="hajji"/>
+                                                    <connections>
+                                                        <action selector="hajjAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITb-zJ-x2N"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حاج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsL-5q-4Au">
+                                                    <rect key="frame" x="41.666666666666657" y="62" width="23" height="33.666666666666657"/>
+                                                    <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="18"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="hsL-5q-4Au" firstAttribute="top" secondItem="Xlp-6f-Pxn" secondAttribute="top" constant="62" id="H4u-wx-qgl"/>
+                                                <constraint firstItem="hsL-5q-4Au" firstAttribute="centerX" secondItem="Xlp-6f-Pxn" secondAttribute="centerX" id="UPK-SJ-OAF"/>
+                                                <constraint firstItem="gXr-2N-OVd" firstAttribute="centerX" secondItem="Xlp-6f-Pxn" secondAttribute="centerX" id="V2C-Ud-mUU"/>
+                                                <constraint firstItem="gXr-2N-OVd" firstAttribute="top" secondItem="Xlp-6f-Pxn" secondAttribute="top" constant="7" id="qtD-Am-ItY"/>
+                                            </constraints>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="98" id="VIc-SG-XYl"/>
+                                            <constraint firstAttribute="width" constant="106" id="gsI-I7-86c"/>
+                                        </constraints>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="28V-Tf-2qG">
+                                        <rect key="frame" x="232" y="0.0" width="106" height="98"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lJf-cd-ct8">
+                                            <rect key="frame" x="0.0" y="0.0" width="106" height="98"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzq-ie-56Y">
+                                                    <rect key="frame" x="31" y="16" width="44" height="46"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="46" id="90P-WN-wyj"/>
+                                                        <constraint firstAttribute="width" constant="44" id="BXD-OV-qQu"/>
+                                                    </constraints>
+                                                    <state key="normal" image="busBlack"/>
+                                                    <connections>
+                                                        <action selector="hajjAdminAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mdh-3I-CcV"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حملة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycf-fW-caG">
+                                                    <rect key="frame" x="35.666666666666686" y="62" width="34.666666666666657" height="33.666666666666657"/>
+                                                    <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="18"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Wzq-ie-56Y" firstAttribute="centerX" secondItem="lJf-cd-ct8" secondAttribute="centerX" id="65w-rE-qWq"/>
+                                                <constraint firstItem="Wzq-ie-56Y" firstAttribute="top" secondItem="lJf-cd-ct8" secondAttribute="top" constant="16" id="LR6-Nt-7ea"/>
+                                                <constraint firstItem="Ycf-fW-caG" firstAttribute="top" secondItem="lJf-cd-ct8" secondAttribute="top" constant="62" id="XjV-cP-G4r"/>
+                                                <constraint firstItem="Ycf-fW-caG" firstAttribute="centerX" secondItem="lJf-cd-ct8" secondAttribute="centerX" id="u0k-H0-trE"/>
+                                            </constraints>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="98" id="EYl-Ns-Hxy"/>
+                                            <constraint firstAttribute="width" constant="106" id="YOB-lX-cJE"/>
+                                        </constraints>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أنا" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMY-m7-aw4">
+                                <rect key="frame" x="174" y="340.33333333333331" width="25.666666666666657" height="61.666666666666686"/>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="33"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-2a-xG4">
+                                <rect key="frame" x="120.33333333333331" y="718" width="136" height="50"/>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="20"/>
+                                <state key="normal" title="تـحتــاج مســـاعدة ؟">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="IneedHelpAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Nj-nV-2rl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HajjLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qAu-Ih-KIr">
+                                <rect key="frame" x="140" y="79" width="95" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="VgR-Ga-5YE"/>
+                                    <constraint firstAttribute="height" constant="181" id="krS-Ks-Z8e"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14509803921568626" green="0.6705882352941176" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JMY-m7-aw4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-35" id="ImU-la-EC8"/>
+                            <constraint firstItem="JMY-m7-aw4" firstAttribute="centerX" secondItem="qAu-Ih-KIr" secondAttribute="centerX" constant="-0.83333333333331439" id="SS3-qv-rQg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ofd-2a-xG4" secondAttribute="bottom" constant="10" id="Xdr-ya-BxM"/>
+                            <constraint firstItem="qAu-Ih-KIr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="bms-VT-ACu"/>
+                            <constraint firstItem="qAu-Ih-KIr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="htz-KJ-Dse"/>
+                            <constraint firstItem="RdC-dH-Ndn" firstAttribute="top" secondItem="JMY-m7-aw4" secondAttribute="bottom" constant="8.3300000000000001" id="ioD-tV-cud"/>
+                            <constraint firstItem="RdC-dH-Ndn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="k2n-zN-aBL"/>
+                            <constraint firstItem="Ofd-2a-xG4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="t42-jw-FWv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backStackView" destination="RdC-dH-Ndn" id="hDg-Nt-FJX"/>
+                        <outlet property="hajjAdminOutlet" destination="zSE-kI-8Qq" id="HiK-oV-ZIH"/>
+                        <outlet property="hajjManagmentOutlet" destination="Wzq-ie-56Y" id="1vk-eh-0qY"/>
+                        <outlet property="hajjOutlet" destination="gXr-2N-OVd" id="NEo-iI-44y"/>
+                        <outlet property="view1" destination="gcl-Az-4hX" id="9OR-sw-2Vz"/>
+                        <outlet property="view2" destination="xwU-yy-TLg" id="VNV-KO-gYb"/>
+                        <outlet property="view3" destination="28V-Tf-2qG" id="19b-RU-uAW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="36.945812807881772"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fpm-zC-6mo">
+            <objects>
+                <viewController storyboardIdentifier="QRViewController" id="FLw-qD-9LB" customClass="QRViewController" customModule="Hackthon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BrZ-ix-h3i" customClass="QRCodeReaderView" customModule="Hackthon" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hmc-tY-vT6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0d-aP-yzS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="37"/>
+        </scene>
+        <!--HajjManagment-->
+        <scene sceneID="ucA-Ng-YUp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HajjManagment" id="FOy-Dv-21W" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgP-XG-H0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-316" y="439"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="R61-ZL-ISO">
+            <objects>
+                <viewControllerPlaceholder id="72W-aQ-eqr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1I-Nb-d0n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="439"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="asj-r6-4ap">
+            <objects>
+                <viewControllerPlaceholder id="KRM-j1-1SE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cvk-Ix-9qq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415" y="439"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HajjLogo" width="197" height="322"/>
+        <image name="busBlack" width="100" height="100"/>
+        <image name="hajji" width="130" height="149"/>
+        <image name="kaabaa" width="200" height="200"/>
+    </resources>
+</document>
